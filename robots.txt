@@ -1,0 +1,3 @@
+# Unofficial concept. Page-level noindex directives are included on every HTML page.
+User-agent: *
+Disallow:
