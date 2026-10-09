@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{background:#0A1628;margin:0;padding:30px;display:flex;gap:40px;align-items:flex-start;font-family:monospace}
+.fig{color:#F2EFE6;width:360px}
+.fig svg{width:100%;height:auto}
+.mk-ring{fill:none;stroke:#3fc98a;stroke-width:1.2}
+.mk-dot{fill:#3fc98a;stroke:none}
+.mk-lead{stroke:#3fc98a;stroke-width:1;fill:none}
+.mk-num{fill:#3fc98a;font:600 11px monospace;text-anchor:middle}
+.grid{display:grid;grid-template-columns:repeat(5,110px);gap:14px;color:#F2EFE6}
+.cell{border:1px solid #2b3c5e;padding:8px}
+.cell svg{width:100%;height:auto}
+.cell span{font:10px monospace;color:#8fb0f5;display:block;margin-top:4px}
+</style></head><body>
+<div class="fig">FIGURE</div>
+<div class="grid" id="g"></div>
+<script>
+fetch('figure.svg').then(r=>r.text()).then(t=>document.querySelector('.fig').innerHTML=t);
+const slugs=['neck','jaw','cervical-headaches','shoulder','elbow','wrist-hand','thoracic-spine','ribs','lower-back','pelvis','hip','hamstring','knee','shin','foot-ankle'];
+slugs.forEach(s=>fetch(s+'.svg').then(r=>r.text()).then(t=>{const d=document.createElement('div');d.className='cell';d.innerHTML=t+'<span>'+s+'</span>';document.getElementById('g').appendChild(d);}));
+</script></body></html>

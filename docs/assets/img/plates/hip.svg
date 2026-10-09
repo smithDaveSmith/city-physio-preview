@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" class="plate-detail" role="presentation" focusable="false">
+  <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="60" cy="52" r="22"/>
+    <circle cx="60" cy="52" r="12"/>
+    <path d="M 14 26 Q 68 32 60 74 Q 54 104 26 96"/>
+    <path d="M 47.07 72.64 Q 47.05 111.06 39.07 148.64 A 13 13 0 0 1 64.93 151.36 Q 64.95 112.94 72.93 75.36 A 13 13 0 0 1 47.07 72.64 Z"/>
+  </g>
+</svg>

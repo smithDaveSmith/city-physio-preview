@@ -1,0 +1,366 @@
+{
+  "_note": "Clinical content adapted from the CityPhysio Symptom Selector (https://www.cityphysio.ie/symptom-selector). Rewritten for clarity; factual meaning preserved. The `scan` line is written for a patient scanning an index and is derived from the clinic's own text. No conditions, claims or statistics have been added. `ruleOut` lines state what a problem probably is NOT and are derived from the clinic's own published text; `redFlag` lines fold into the shared safety panel. Both need physiotherapist sign-off before launch — see README.",
+  "groups": [
+    {
+      "id": "head-neck",
+      "title": "Head and neck"
+    },
+    {
+      "id": "upper-limb",
+      "title": "Upper limb"
+    },
+    {
+      "id": "mid-back",
+      "title": "Mid back"
+    },
+    {
+      "id": "lower-back-hip",
+      "title": "Lower back and hip"
+    },
+    {
+      "id": "lower-limb",
+      "title": "Lower limb"
+    }
+  ],
+  "regions": [
+    {
+      "slug": "neck",
+      "group": "head-neck",
+      "title": "Neck",
+      "anatomical": "Cervical spine",
+      "scan": "Neck pain, stiffness, headaches, pain or pins and needles into the shoulder or arm",
+      "intro": "The neck is the most mobile part of the spine, and that mobility makes it vulnerable — particularly in road traffic accidents and in sport.",
+      "body": [
+        "Whiplash injuries affect the muscles and ligaments of the neck and shoulder. Neck problems can also refer symptoms further afield: headaches, pain across the shoulder and down the arm, and pins and needles or numbness, which can indicate a disc protrusion.",
+        "Degenerative change in the neck — arthrosis and spondylosis — is common and treatable. Sustained poor sitting posture and weak core stabilising muscles frequently contribute to both the onset and the recurrence of neck pain."
+      ],
+      "alsoCovers": [
+        "Whiplash",
+        "Cervical headaches",
+        "Disc protrusion",
+        "Arthrosis and spondylosis",
+        "Postural neck pain"
+      ],
+      "services": [
+        "physiotherapy",
+        "acupuncture-dry-needling",
+        "pilates"
+      ]
+    },
+    {
+      "slug": "jaw",
+      "group": "head-neck",
+      "title": "Jaw",
+      "anatomical": "Temporomandibular joint",
+      "scan": "Jaw pain, clicking or difficulty opening the mouth, often alongside neck trouble",
+      "intro": "Jaw pain is frequently driven by the neck rather than the jaw itself.",
+      "body": [
+        "Poor neck posture and neck injuries such as whiplash are common causes of jaw symptoms. Because of that link, assessment usually looks at the neck and the jaw together.",
+        "Management can include targeted exercises, manual therapy to the jaw and neck, and splints where they are appropriate."
+      ],
+      "alsoCovers": [
+        "Temporomandibular joint pain",
+        "Jaw pain after whiplash",
+        "Posture-related jaw pain"
+      ],
+      "services": [
+        "physiotherapy",
+        "acupuncture-dry-needling"
+      ]
+    },
+    {
+      "slug": "cervical-headaches",
+      "group": "head-neck",
+      "title": "Headaches from the neck",
+      "anatomical": "Upper cervical spine",
+      "scan": "Headaches that start at the base of the skull and spread into the head",
+      "intro": "The upper neck can refer pain into the head. Headaches from this source are known as cervical headaches.",
+      "body": [
+        "They usually follow poor posture, an injury to the neck, or sustained tension in the neck muscles.",
+        "Specific testing of the upper cervical joints can confirm whether the neck is the source of your headaches, which matters because it changes the treatment entirely."
+      ],
+      "alsoCovers": [
+        "Cervicogenic headache",
+        "Tension in the upper neck",
+        "Posture-related headache"
+      ],
+      "services": [
+        "physiotherapy",
+        "acupuncture-dry-needling"
+      ],
+      "ruleOut": "Most headaches do not come from the neck. A headache that starts at the base of the skull, is one-sided, and is provoked by neck position or sustained posture is the pattern that points to the neck.",
+      "redFlag": "Headaches that are new, severe, or different from your usual pattern should be assessed by your GP first."
+    },
+    {
+      "slug": "shoulder",
+      "group": "upper-limb",
+      "title": "Shoulder",
+      "anatomical": "Glenohumeral joint",
+      "scan": "Shoulder pain, weakness, pain down the outer arm, or difficulty lifting the arm overhead",
+      "intro": "A large humeral head sitting in a small, shallow socket makes the shoulder the most mobile joint in the body — and inherently the least stable.",
+      "body": [
+        "That trade-off leaves the shoulder prone to instability and dislocation, and to injury from falls and from sport. Weakness in the rotator cuff and in the muscles controlling the shoulder blade is very often part of the picture.",
+        "Conditions we see include tendonitis, bursitis, rotator cuff tears and frozen shoulder (adhesive capsulitis). Pain referred down the outer arm is a common pattern."
+      ],
+      "alsoCovers": [
+        "Rotator cuff tears",
+        "Tendonitis and bursitis",
+        "Frozen shoulder",
+        "Shoulder instability and dislocation"
+      ],
+      "services": [
+        "physiotherapy",
+        "tendon-clinic",
+        "sports-physiotherapy"
+      ]
+    },
+    {
+      "slug": "elbow",
+      "group": "upper-limb",
+      "title": "Elbow",
+      "anatomical": "Elbow joint and forearm",
+      "scan": "Pain around the elbow or forearm when gripping, lifting or carrying",
+      "intro": "Most elbow problems are overuse injuries rather than single-incident injuries.",
+      "body": [
+        "Tennis elbow and golfer's elbow are the two most common. Both cause pain around the elbow and forearm that is provoked by gripping and by lifting even small weights.",
+        "Trauma to the elbow can cause fractures and dislocations, which need to be assessed and imaged before rehabilitation begins."
+      ],
+      "alsoCovers": [
+        "Tennis elbow",
+        "Golfer's elbow",
+        "Elbow fractures and dislocation"
+      ],
+      "services": [
+        "physiotherapy",
+        "tendon-clinic",
+        "corporate-services"
+      ],
+      "ruleOut": "If your elbow pain came on gradually with gripping and lifting, it is far more likely to be an overuse tendon problem than joint damage. Pain that followed a fall or a direct blow is a different matter and may need imaging first."
+    },
+    {
+      "slug": "wrist-hand",
+      "group": "upper-limb",
+      "title": "Wrist and hand",
+      "anatomical": "Wrist and hand",
+      "scan": "Wrist or hand pain, often linked to keyboard work or to a fall",
+      "intro": "Wrist tendonitis is commonly the result of repetitive strain.",
+      "body": [
+        "Heavy keyboard use, poor posture at a desk and a badly set-up workstation are frequent contributors — which is why assessment often includes how and where you work.",
+        "Trauma is the other main cause. Wrist fractures are common after a fall, most often a Colles fracture."
+      ],
+      "alsoCovers": [
+        "Wrist tendonitis",
+        "Repetitive strain",
+        "Colles and other wrist fractures"
+      ],
+      "services": [
+        "physiotherapy",
+        "corporate-services"
+      ]
+    },
+    {
+      "slug": "thoracic-spine",
+      "group": "mid-back",
+      "title": "Mid back",
+      "anatomical": "Thoracic spine",
+      "scan": "Pain and stiffness between the shoulder blades, often posture-related",
+      "intro": "Pain and stiffness in the mid back are strongly linked to posture, and the thoracic spine can refer symptoms elsewhere in the spine.",
+      "body": [
+        "The typical pattern is pain in a narrow band running from the back across the ribs.",
+        "Ankylosing spondylitis and Scheuermann's disease can also produce thoracic pain and stiffness, and are considered during assessment."
+      ],
+      "alsoCovers": [
+        "Postural mid-back pain",
+        "Thoracic stiffness",
+        "Ankylosing spondylitis",
+        "Scheuermann's disease"
+      ],
+      "services": [
+        "physiotherapy",
+        "pilates",
+        "corporate-services"
+      ]
+    },
+    {
+      "slug": "ribs",
+      "group": "mid-back",
+      "title": "Ribs",
+      "anatomical": "Costovertebral joints",
+      "scan": "Sharp rib pain on movement, coughing or taking a deep breath",
+      "intro": "Rib pain often originates in the joints where the ribs meet the thoracic spine.",
+      "body": [
+        "Where the thoracic spine is not moving well, rib pain can follow — typically provoked by movement, by coughing, or by breathing deeply."
+      ],
+      "alsoCovers": [
+        "Rib joint dysfunction",
+        "Pain on deep breathing",
+        "Pain on coughing"
+      ],
+      "services": [
+        "physiotherapy"
+      ],
+      "redFlag": "Rib and chest pain can have cardiac and respiratory causes as well as musculoskeletal ones."
+    },
+    {
+      "slug": "lower-back",
+      "group": "lower-back-hip",
+      "title": "Lower back",
+      "anatomical": "Lumbar spine",
+      "scan": "Lower back pain, with or without pain into the buttock or leg (sciatica)",
+      "intro": "The lower back is one of the most common sites of pain we see, and posture and lifestyle are usually part of the cause.",
+      "body": [
+        "Pain may stay local to the lower back, or spread into the buttock and down the leg — the pattern commonly called sciatica. Pins and needles, numbness or weakness in the leg suggest greater involvement of the nerve and change how urgently you should be seen.",
+        "Common sources are the discs, the facet joints and irritated nerve roots. Slippage of one vertebra on another — spondylolisthesis — can follow trauma or repetitive injury.",
+        "Weakness in the deep core muscles, particularly transversus abdominis and gluteus maximus, is a frequent contributor and a frequent reason for recurrence."
+      ],
+      "alsoCovers": [
+        "Sciatica",
+        "Disc problems",
+        "Facet joint pain",
+        "Spondylolisthesis",
+        "Core weakness"
+      ],
+      "services": [
+        "physiotherapy",
+        "pilates",
+        "acupuncture-dry-needling"
+      ],
+      "ruleOut": "Pain that stays in your back is not sciatica. Sciatica means pain travelling down the leg. If your pain stops at the buttock it is more likely to be coming from the back itself — the discs or the facet joints — than from an irritated nerve root."
+    },
+    {
+      "slug": "pelvis",
+      "group": "lower-back-hip",
+      "title": "Pelvis",
+      "anatomical": "Pelvis and pubic symphysis",
+      "scan": "Pain in the lower back, buttock or groin, including pelvic pain in pregnancy",
+      "intro": "The pelvis is commonly injured in childbirth, in road traffic accidents and in sport.",
+      "body": [
+        "Pain may be felt in the lower back, in the buttock, or in the groin.",
+        "Pubic symphysis dysfunction is common in pregnancy and causes pain at the front of the pubic bone."
+      ],
+      "alsoCovers": [
+        "Pubic symphysis dysfunction",
+        "Pelvic pain in pregnancy",
+        "Pelvic injury after trauma"
+      ],
+      "services": [
+        "physiotherapy",
+        "womens-health",
+        "pilates"
+      ]
+    },
+    {
+      "slug": "hip",
+      "group": "lower-back-hip",
+      "title": "Hip",
+      "anatomical": "Hip joint",
+      "scan": "Pain in the buttock, groin or inner thigh, or stiffness in the hip",
+      "intro": "The hip is a ball-and-socket joint and a very stable one, so hip problems often present as pain referred elsewhere.",
+      "body": [
+        "Pain is usually felt at the back of the buttock, but it can refer to the front of the groin or to the inner thigh.",
+        "Conditions include femoroacetabular impingement, capsulitis and osteoarthrosis. Weakness in the gluteal muscles is common, particularly in sports that involve rotating under load."
+      ],
+      "alsoCovers": [
+        "Femoroacetabular impingement",
+        "Hip capsulitis",
+        "Osteoarthrosis",
+        "Gluteal weakness"
+      ],
+      "services": [
+        "physiotherapy",
+        "sports-physiotherapy",
+        "tendon-clinic"
+      ]
+    },
+    {
+      "slug": "hamstring",
+      "group": "lower-limb",
+      "title": "Hamstring",
+      "anatomical": "Posterior thigh",
+      "scan": "Pain at the back of the thigh, usually after sprinting or changing direction",
+      "intro": "Hamstring strains are strongly associated with muscle imbalance rather than bad luck.",
+      "body": [
+        "Postural muscle imbalances reduce hamstring flexibility and raise the risk of strain. Sports with rapid changes of direction — Gaelic football, soccer, tennis and gymnastics — carry a higher risk.",
+        "Effective management is not rest alone: it requires an exercise programme that corrects the underlying imbalance, or the strain tends to recur."
+      ],
+      "alsoCovers": [
+        "Hamstring strain and tear",
+        "Recurrent hamstring injury",
+        "High hamstring tendinopathy"
+      ],
+      "services": [
+        "sports-physiotherapy",
+        "physiotherapy",
+        "tendon-clinic"
+      ]
+    },
+    {
+      "slug": "knee",
+      "group": "lower-limb",
+      "title": "Knee",
+      "anatomical": "Knee and patellofemoral joint",
+      "scan": "Knee pain, swelling, giving way or locking — or pain at the front of the kneecap",
+      "intro": "Knee problems divide into those affecting the knee joint itself and those affecting the patellofemoral joint at the front.",
+      "body": [
+        "Contact sport can cause medial or lateral collateral ligament sprains, meniscal tears and cruciate ligament tears. A cruciate tear typically produces immediate swelling.",
+        "Patellofemoral or anterior knee pain is felt at the front of the kneecap and is typically provoked by running, by stairs and by prolonged driving. It is often linked to misalignment of the patella, to muscle imbalance, or to foot biomechanics such as overpronation."
+      ],
+      "alsoCovers": [
+        "Cruciate and collateral ligament injury",
+        "Meniscal tears",
+        "Anterior knee pain",
+        "Patellar tendinopathy"
+      ],
+      "services": [
+        "physiotherapy",
+        "sports-physiotherapy",
+        "tendon-clinic"
+      ],
+      "ruleOut": "A knee that swelled within an hour of the injury is a different problem from one that ached and stiffened over the next day or two. Immediate swelling points to bleeding inside the joint, which is typical of a cruciate ligament tear, and should be assessed promptly."
+    },
+    {
+      "slug": "shin",
+      "group": "lower-limb",
+      "title": "Shin",
+      "anatomical": "Lower leg",
+      "scan": "Pain along the shin that comes on with running",
+      "intro": "Shin splints are an overuse injury, and most common in runners.",
+      "body": [
+        "The usual drivers are muscle imbalance through the lower limb and poor foot biomechanics, which is why assessment looks at the whole chain rather than the painful spot alone."
+      ],
+      "alsoCovers": [
+        "Shin splints",
+        "Medial tibial stress syndrome",
+        "Running overuse injury"
+      ],
+      "services": [
+        "sports-physiotherapy",
+        "physiotherapy"
+      ]
+    },
+    {
+      "slug": "foot-ankle",
+      "group": "lower-limb",
+      "title": "Foot and ankle",
+      "anatomical": "Foot and ankle",
+      "scan": "Ankle sprains, heel pain, fallen arches or recurrent giving way",
+      "intro": "Lateral ankle ligament sprains are very common in sport — and if they are not properly rehabilitated they can leave long-term instability.",
+      "body": [
+        "Overpronation, or fallen arches, is a widespread foot problem. It is associated with plantar fasciitis, cuboid syndrome, metatarsalgia, and Achilles tendonitis or tendinopathy.",
+        "Where it is appropriate, overpronation can be managed with custom orthotics, which we prescribe following a biomechanical assessment."
+      ],
+      "alsoCovers": [
+        "Ankle ligament sprain",
+        "Plantar fasciitis",
+        "Achilles tendinopathy",
+        "Overpronation and orthotics",
+        "Metatarsalgia"
+      ],
+      "services": [
+        "physiotherapy",
+        "tendon-clinic",
+        "sports-physiotherapy"
+      ]
+    }
+  ]
+}

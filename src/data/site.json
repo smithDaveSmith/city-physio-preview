@@ -1,0 +1,114 @@
+{
+  "_note": "Every value here is taken from cityphysio.ie or a cited public source. Items under `unverified` must be confirmed by the owner before launch.",
+
+  "name": "CityPhysio",
+  "legalName": "MJ Physio Limited T/A CityPhysio",
+  "companyNumber": "690460",
+  "directors": ["J. Shenton", "M. Hanlon"],
+  "descriptor": "Chartered Physiotherapy",
+  "tagline": "Chartered physiotherapy in the centre of Lucan village.",
+
+  "address": {
+    "street": "1–2 Vesey Terrace, Main Street",
+    "locality": "Lucan",
+    "region": "Co. Dublin",
+    "postalCode": "K78 VY40",
+    "country": "IE",
+    "countryName": "Ireland"
+  },
+
+  "phoneDisplay": "(01) 628 0855",
+  "phoneHref": "tel:+35316280855",
+  "email": "info@cityphysio.ie",
+
+  "hours": [
+    { "days": "Monday – Thursday", "open": "08:00", "close": "20:00", "schema": "Mo-Th 08:00-20:00" },
+    { "days": "Friday", "open": "08:00", "close": "18:00", "schema": "Fr 08:00-18:00" }
+  ],
+  "hoursNote": "Saturday Pilates classes may run outside these hours — check the class timetable when booking.",
+
+  "booking": {
+    "cliniko": "https://mjphysioltd-ta-cityphysio.eu1.cliniko.com/bookings",
+    "clinikoEmbed": "https://mjphysioltd-ta-cityphysio.eu1.cliniko.com/bookings?embedded=true",
+    "cancellationHours": 24,
+    "cancellationFee": "€50"
+  },
+
+  "social": {
+    "facebook": "https://www.facebook.com/CityPhysio-Lucan-194330417288953/",
+    "instagram": "https://www.instagram.com/cityphysiolucan/"
+  },
+
+  "professionalBody": {
+    "name": "Irish Society of Chartered Physiotherapists",
+    "abbr": "ISCP",
+    "url": "https://www.iscp.ie/",
+    "directoryUrl": "https://www.iscp.ie/find-a-physio"
+  },
+
+  "insurers": ["VHI", "Laya Healthcare", "Irish Life Health", "ESB Insurance", "Garda Medical"],
+  "insurersNote": "Logos for these insurers appear on the current site. Cover varies by policy — always check with your insurer before your appointment.",
+
+  "transport": {
+    "buses": ["66a", "66b", "67a", "67b", "25"],
+    "from": "College Green, Dublin city centre",
+    "roads": ["N4", "N7", "M50"]
+  },
+
+  "downloads": [
+    { "title": "Post-COVID Recovery", "url": "https://www.cityphysio.ie/s/Post-COVID-Recovery-Leaflet.pdf", "type": "PDF" },
+    { "title": "Working Safely from Home", "url": "https://www.cityphysio.ie/s/Working-Safely-from-Home.pdf", "type": "PDF" }
+  ],
+
+  "promises": [
+    "We will tell you what is wrong.",
+    "We have the expertise to get you better.",
+    "We promise not to waste your time. When physiotherapy is not the solution we will refer you to the relevant specialist."
+  ],
+
+  "approach": [
+    {
+      "n": "01",
+      "title": "Assessment",
+      "summary": "A detailed history and a physical examination, so we can name the problem.",
+      "detail": "Your physiotherapist takes a detailed history and carries out a physical examination. The aim is to identify the current pathology, its probable cause, and any factors that may affect your recovery. Afterwards they will discuss the diagnosis with you, the treatment required, the expected outcome and the likely number of sessions. If you need to see someone else, they will arrange the referral."
+    },
+    {
+      "n": "02",
+      "title": "Treatment",
+      "summary": "Hands-on manual therapy to correct the movement problem and allow healing to start.",
+      "detail": "Treatment centres on manual therapy — mobilising and manipulating joints, nerves and muscles — to correct the postural and movement problems behind your symptoms and support early healing. You may be asked to do simple exercises at home or at work to hold those corrections between sessions."
+    },
+    {
+      "n": "03",
+      "title": "Rehabilitation and prevention",
+      "summary": "A specific exercise programme so the problem does not come back.",
+      "detail": "We address the factors that contributed to the problem in the first place. Your physiotherapist designs a specific exercise programme to improve muscle function, which may include our Pilates classes, run by specialist physiotherapists. Where it is relevant you will also get training and office ergonomics advice. The aim is for you to manage the condition independently."
+    }
+  ],
+
+  "preservedUrls": [
+    "/",
+    "/about-cityphysio-lucan",
+    "/services-at-cityphysio-lucan",
+    "/symptom-selector",
+    "/pilates-classes-at-city-physio-lucan",
+    "/the-cityphysio-approach-to-treatment",
+    "/blog",
+    "/contact-cityphysio-lucan",
+    "/bookings",
+    "/downloads",
+    "/privacy-cookies-policy",
+    "/child-safeguarding-statement",
+    "/patient-privacy-document"
+  ],
+
+  "unverified": {
+    "openingHours": "The current site contradicts itself: page body says Mon–Thu 08:00–20:00, Fri 08:00–18:00, while the <title> and meta description on /contact-cityphysio-lucan say Mon–Thu 8am–9pm, Fri 8am–6pm, Sat 9am–2pm. The narrower (body) hours are used here. CONFIRM BEFORE LAUNCH.",
+    "prices": "No prices are published anywhere on the current site except 'Prices on request' for the Tendon Clinic. None are invented here.",
+    "appointmentDuration": "Only the Shockwave session length (20–30 min) is published. First-appointment duration is not stated anywhere and is not invented here.",
+    "shockwaveEfficacyClaim": "The current site claims 'up to 90% of patients report pain reduction after 3 sessions'. No source is given, so it is deliberately omitted here. Reinstate only with a citation.",
+    "reviewsAndRatings": "No reviews, ratings or testimonials exist on the current site and none were found in public sources. None are invented here.",
+    "photography": "No verified photography of the clinic, team or treatment rooms exists. The current site uses stock sports imagery and caricature illustrations. No photography is used in this build."
+  }
+}

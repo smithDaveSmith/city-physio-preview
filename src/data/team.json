@@ -1,0 +1,58 @@
+{
+  "_note": "Names and role descriptors exactly as published on https://www.cityphysio.ie/about-cityphysio-lucan. No qualifications, registration numbers, years of experience or biographies are published on the current site, and none are invented here. The `bio` field is intentionally absent for every member — see README 'What the owner needs to supply'.",
+
+  "team": [
+    {
+      "name": "Margaret Hanlon",
+      "initials": "MH",
+      "role": "Clinic Director",
+      "specialisms": ["Clinical Specialist Physiotherapist", "Manual Physiotherapy", "Rehabilitation"],
+      "note": "Expert witness for the Irish Society of Chartered Physiotherapists.",
+      "director": true
+    },
+    {
+      "name": "John Shenton",
+      "initials": "JS",
+      "role": "Clinic Director",
+      "specialisms": ["Clinical Specialist Physiotherapist", "Manual Physiotherapy", "Rehabilitation"],
+      "director": true
+    },
+    {
+      "name": "Emma Gorman",
+      "initials": "EG",
+      "role": "Physiotherapist",
+      "specialisms": ["Manual Physiotherapy", "Rehabilitation", "Occupational Health", "Pilates"]
+    },
+    {
+      "name": "Ciara Brady",
+      "initials": "CB",
+      "role": "Physiotherapist",
+      "specialisms": ["Manual Physiotherapy", "Rehabilitation", "Pilates"]
+    },
+    {
+      "name": "Gabriel Coutinho",
+      "initials": "GC",
+      "role": "Physiotherapist",
+      "specialisms": ["Manual Physiotherapy", "Rehabilitation", "Sports Physiotherapy", "Occupational Health"]
+    },
+    {
+      "name": "Carolina Pacheco",
+      "initials": "CP",
+      "role": "Physiotherapist",
+      "specialisms": ["Pilates"]
+    },
+    {
+      "name": "Mary Furlong",
+      "initials": "MF",
+      "role": "Physiotherapist",
+      "specialisms": ["Acupuncture"]
+    }
+  ],
+
+  "clinicNotes": [
+    "A spacious, modern clinic in the centre of Lucan village, minutes from the N4, N7 and M50.",
+    "Treatment is provided only by chartered physiotherapists with advanced qualifications in musculoskeletal and sporting injuries.",
+    "Some of the team hold additional qualifications in orthotics prescription, dry needling, women's health and ergonomics.",
+    "We accept self-referrals as well as referrals from GPs and consultants, and offer a consultant service to other physiotherapists."
+  ]
+}

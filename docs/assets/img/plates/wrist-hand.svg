@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" class="plate-detail" role="presentation" focusable="false">
+  <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 45.02 0.5 Q 49.01 28.36 48.02 56.57 A 8 8 0 0 1 63.98 55.43 Q 58.99 27.64 58.98 -0.5 A 7 7 0 0 1 45.02 0.5 Z"/>
+    <path d="M 62.02 -0.43 Q 62.01 27.72 57.02 55.5 A 7 7 0 0 1 70.98 56.5 Q 69.99 28.28 73.98 0.43 A 6 6 0 0 1 62.02 -0.43 Z"/>
+    <rect x="42" y="62" width="38" height="18" rx="7"/>
+    <line x1="45" y1="82" x2="37" y2="108"/><line x1="53" y1="82" x2="49" y2="118"/><line x1="61" y1="82" x2="61" y2="128"/><line x1="69" y1="82" x2="73" y2="118"/><line x1="77" y1="82" x2="85" y2="108"/>
+  </g>
+</svg>

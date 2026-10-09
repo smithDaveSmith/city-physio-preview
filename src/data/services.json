@@ -1,0 +1,182 @@
+{
+  "_note": "Adapted from https://www.cityphysio.ie/services-at-cityphysio-lucan. Rewritten for clarity; factual meaning preserved. No prices, durations, guarantees or efficacy statistics have been added. The site's unsourced shockwave efficacy claim is deliberately omitted.",
+
+  "services": [
+    {
+      "slug": "physiotherapy",
+      "n": "01",
+      "title": "Physiotherapy",
+      "lede": "We don't treat a list of medical conditions. We treat people with aches, pains, injuries and movement problems.",
+      "body": [
+        "Assessment comes first: we work out what is actually wrong and what caused it, then tell you plainly. Care centres on hands-on manual treatment combined with rehabilitation through exercise.",
+        "The goal is to get you back to work, back to your sport, or simply out of pain — and to leave you able to manage the problem yourself."
+      ],
+      "points": [
+        "Hands-on manual therapy",
+        "Rehabilitation through exercise",
+        "Self-referral welcome — no GP letter needed",
+        "Referrals accepted from GPs and consultants"
+      ],
+      "price": null,
+      "featured": true
+    },
+    {
+      "slug": "tendon-clinic",
+      "n": "02",
+      "title": "Tendon Clinic",
+      "lede": "A dedicated programme for tendon problems, built on best-practice guidelines.",
+      "body": [
+        "Tendon problems behave differently from other soft-tissue injuries, and they rarely respond to rest alone. The clinic combines activity modification with a graded, structured exercise programme, and uses shockwave therapy where it is indicated.",
+        "Tendinopathies are slow to settle. The programme is designed around that reality rather than against it."
+      ],
+      "points": [
+        "Activity modification",
+        "Graded structured exercise programme",
+        "Shockwave therapy where indicated"
+      ],
+      "price": "Prices on request",
+      "related": ["shockwave-therapy"],
+      "featured": true
+    },
+    {
+      "slug": "shockwave-therapy",
+      "n": "03",
+      "title": "Shockwave Therapy",
+      "lede": "Extracorporeal Shock Wave Therapy (ESWT) for chronic and persistent soft-tissue injuries.",
+      "body": [
+        "Shockwave is delivered non-invasively with a handheld probe. It is used to aid healing and to reduce pain, so that loading the tissue through exercise becomes tolerable — the exercise is what produces the lasting change.",
+        "Each session takes 20 to 30 minutes and includes assessment, treatment, aftercare advice and exercise prescription. Patients are asked to book a package of three consecutive weekly sessions; treatment often takes three or more."
+      ],
+      "treats": [
+        "Plantar fasciitis",
+        "High hamstring tendinopathy",
+        "Shoulder pain, including calcific rotator cuff tendinopathy",
+        "Lateral and medial epicondylitis",
+        "Patellar tendinopathy",
+        "Achilles tendinopathy",
+        "Greater trochanteric pain syndrome"
+      ],
+      "points": [
+        "20–30 minutes per session",
+        "Booked as three consecutive weekly sessions",
+        "Non-invasive, delivered with a handheld probe"
+      ],
+      "price": null,
+      "partOf": "tendon-clinic"
+    },
+    {
+      "slug": "sports-physiotherapy",
+      "n": "04",
+      "title": "Sports Physiotherapy",
+      "lede": "For athletes from club level to international level.",
+      "body": [
+        "We cover pre-season screening, diagnosis and management of injury, and corrective exercise programmes designed around the demands of your sport.",
+        "A full biomechanical screening may include running video analysis, muscle imbalance testing and assessment of foot alignment, with orthotics prescribed where they are needed."
+      ],
+      "points": [
+        "Pre-season screening",
+        "Running video analysis",
+        "Muscle imbalance testing",
+        "Foot alignment assessment and orthotic prescription"
+      ],
+      "price": "A reduced rate may be available to sports clubs — ask reception.",
+      "featured": true
+    },
+    {
+      "slug": "pilates",
+      "n": "05",
+      "title": "Pilates Classes",
+      "lede": "Classes run by specialist physiotherapists, aimed at control, posture and core stability.",
+      "body": [
+        "The purpose is practical: better muscle control and posture reduce uneven wear on tissues and help stop an injury recurring. For many patients Pilates is the third stage of treatment rather than a separate activity.",
+        "If you are a CityPhysio patient, you complete a Pilates assessment form with your physiotherapist first. If you are not, arrive ten minutes early for a brief screening with the instructor."
+      ],
+      "points": [
+        "Run by specialist physiotherapists",
+        "Assessment or screening before your first class",
+        "Open to patients and non-patients"
+      ],
+      "booking": "Class times change. Book through the online booking system — choose Lucan Clinic, then Group Sessions — or ask reception.",
+      "price": null,
+      "featured": true
+    },
+    {
+      "slug": "womens-health",
+      "n": "06",
+      "title": "Women's Health",
+      "lede": "Specialist pelvic floor physiotherapy.",
+      "body": [
+        "These problems are common. That does not make them normal, and it does not mean you have to live with them — they are treatable.",
+        "Assessment and treatment are private, and you can refer yourself."
+      ],
+      "treats": [
+        "Urinary leakage",
+        "Urinary frequency",
+        "Bowel control problems",
+        "Constipation",
+        "Pain or reduced sensation during intercourse",
+        "Prolapse symptoms"
+      ],
+      "price": null,
+      "featured": true
+    },
+    {
+      "slug": "acupuncture-dry-needling",
+      "n": "07",
+      "title": "Acupuncture and Dry Needling",
+      "lede": "Two distinct needle techniques, used for different purposes.",
+      "body": [
+        "Dry needling uses a solid filament needle to treat myofascial trigger points and the pain and dysfunction associated with them. It is used alongside physiotherapy treatment.",
+        "Acupuncture, described in terms of traditional Chinese medicine, is also offered at the clinic, and is used to complement physiotherapy by relieving pain."
+      ],
+      "treats": [
+        "Myofascial trigger points",
+        "Insomnia",
+        "Sinusitis",
+        "Bell's palsy",
+        "Neuralgia",
+        "Stress and anxiety",
+        "Menopausal hot flushes",
+        "Dysmenorrhoea, amenorrhoea and PMT",
+        "Irregular cycles",
+        "Endometriosis",
+        "Polycystic ovary syndrome"
+      ],
+      "price": null
+    },
+    {
+      "slug": "corporate-services",
+      "n": "08",
+      "title": "Corporate and On-site Services",
+      "lede": "On-site physiotherapy and ergonomics for employers. We have been doing this for 15 years.",
+      "body": [
+        "We work on site, which means problems get caught early and staff do not lose a half-day travelling to an appointment.",
+        "Programmes are built around the actual work being done rather than a generic template."
+      ],
+      "points": [
+        "Screening for musculoskeletal dysfunction",
+        "Ergonomic workplace assessments",
+        "Physiotherapy management of pain and injury",
+        "Preventative exercise programmes",
+        "Group programmes: backcare, postural correction, stretching, and work-related strength and conditioning"
+      ],
+      "price": null,
+      "featured": true
+    },
+    {
+      "slug": "hospital-services",
+      "n": "09",
+      "title": "Hospital Services",
+      "lede": "Physiotherapy provided in a number of private hospitals on a flexible basis.",
+      "body": [
+        "We also provide medico-legal report assessments, and a consultant service to other physiotherapists."
+      ],
+      "points": [
+        "Private hospital physiotherapy",
+        "Medico-legal report assessments",
+        "Consultant service to other physiotherapists"
+      ],
+      "price": null
+    }
+  ]
+}
